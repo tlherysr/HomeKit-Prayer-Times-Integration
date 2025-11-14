@@ -1,0 +1,28 @@
+{
+  "name": "homekit-prayer-times-integration",
+  "version": "1.0.0",
+  "description": "Provides a HomeKit bridge that exposes five switch accessories for daily prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha). Use these switches in Home automations to play the Azan on a HomePod or trigger any scene when the switch pulses ON at the scheduled time.",
+  "main": "prayer-bridge.js",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "hap-nodejs": "^1.2.0",
+    "luxon": "^3.7.2",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlherysr/HomeKit-Prayer-Times-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tlherysr/HomeKit-Prayer-Times-Integration/issues"
+  },
+  "homepage": "https://github.com/tlherysr/HomeKit-Prayer-Times-Integration#readme"
+}
